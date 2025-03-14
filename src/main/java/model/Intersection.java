@@ -16,7 +16,7 @@ public class Intersection {
         }
     }
     // Road_A is in roadCollisions[Road_B] if and only if they cannot have GREEN LIGHTS at the same time
-    private static final Map<Road, Set<Road>> roadCollisions = new HashMap<>();
+    static final Map<Road, Set<Road>> roadCollisions = new HashMap<>();
     // It is precomputed, won't work for different intersection model, only for model drawn in README
     static {
         List<Road[]> collisions = List.of(
