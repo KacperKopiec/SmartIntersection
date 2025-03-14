@@ -103,7 +103,7 @@ at the same time would collide.
 
 The resulting graph, called the conflict graph, represents all possible conflicting lane pairs at the intersection.  
 
-<img src="./src//main/resources/readme_graph.png" alt="Graph" width="500" height="500">
+<img src="./src//main/resources/readme_graph.png" alt="Graph" width="60%" height="60%">
 
 ### Assigning Weights to Vertices
 Each vertex (lane) is assigned a weight, which determines its priority in the traffic light selection process.
